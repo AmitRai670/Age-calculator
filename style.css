@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,rgba(180, 40, 68, 0.926) ,rgb(158, 42, 42),rgb(50, 129, 50));
+    display: flex;
+   justify-content: center;
+}
+
+.frame{
+    height: 200px;
+    width: fit-content;
+    background-color: antiquewhite;
+    align-self: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px palevioletred,-5px -5px 10px palegoldenrod;
+    
+    
+    
+}
+#input{
+    display: flex;
+    justify-content: center;
+    
+}
+#date{
+    border-radius: 5px;
+    padding: 5px;
+}
+.heading{
+    color: rgb(171, 171, 55);
+    font-size: 30px;
+}
+input{
+    padding: 10px;
+}
+#btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
